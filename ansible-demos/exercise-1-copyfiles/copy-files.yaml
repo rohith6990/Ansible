@@ -1,0 +1,8 @@
+-
+  name: check connectivity to target servers
+  hosts: all
+  tasks:
+    - name: ping test
+      copy:
+        src: /tmp/test.txt
+        dest: /tmp/test.txt
